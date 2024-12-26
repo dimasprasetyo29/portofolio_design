@@ -5,7 +5,7 @@ import { SlNote } from "react-icons/sl";
 
 const skillsData = [
   {
-    name: "UI Design",
+    name: "Car  Design",
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-white duration-300" />
     ),
@@ -13,7 +13,7 @@ const skillsData = [
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
   },
   {
-    name: "Product Design",
+    name: "Newest car",
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-white duration-300" />
     ),

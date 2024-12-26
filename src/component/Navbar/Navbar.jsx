@@ -5,7 +5,7 @@ export const Navlinks = [
   {
     id: 1,
     name: "HOME",
-    link: "/#",
+    link: "/#Hero",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="container py-2 sm:py-0">
         <div className="flex justify-between items-center">
           <div>
-            <span className="text-3xl font-bold">PortFolio</span>
+            <span className="text-3xl font-bold">AutoNation</span>
           </div>
           <nav className="hidden sm:block">
             <ul className="flex items-center gap-6">

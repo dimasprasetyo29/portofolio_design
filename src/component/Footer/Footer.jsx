@@ -17,7 +17,7 @@ const Footer = () => {
       {/* footer icons */}
       <div className="bg-dark container">
         <div className="mt-10 p-6 flex items-center justify-between gap-6 ">
-          <h1 className="text-3xl font-bold">Portfolio</h1>
+          <h1 className="text-3xl font-bold">AutoNation</h1>
           <div className="flex gap-6">
             <FaFacebook className="text-2xl text-white/60 hover:text-primary cursor-pointer duration-300" />
             <FaInstagram className="text-2xl text-white/60 hover:text-primary cursor-pointer duration-300" />

@@ -1,31 +1,31 @@
 import React from "react";
-import web1 from "../../assets/image/book-store.jpg";
-import web2 from "../../assets/image/restaurant.jpg";
-import web3 from "../../assets/image/cozweb.jpg";
-import web4 from "../../assets/image/portfolio.jpg";
+import web1 from "../../assets/image/bmw.jpg";
+import web2 from "../../assets/image/corvette.jpg";
+import web3 from "../../assets/image/koenigseeg.jpg";
+import web4 from "../../assets/image/pagani.jpg";
 
 const ProjectsData = [
   {
     id: 1,
-    name: "Online Book Store",
+    name: "BMW M4 COMPETITION",
     image: web3,
     link: "#",
   },
   {
     id: 2,
-    name: "Restaurant Web Page",
+    name: "CHEVROLET CORVETTE",
     image: web2,
     link: "#",
   },
   {
     id: 3,
-    name: "Web Development company",
+    name: "FERRARI F8 SPIDER",
     image: web4,
     link: "#",
   },
   {
     id: 4,
-    name: "Portfolio",
+    name: "KOENIGSEEG",
     image: web1,
     link: "#",
   },
@@ -40,7 +40,7 @@ const Projects = () => {
           <header className="flex justify-between items-center mb-8">
             <div>
               <h1 className="uppercase text-3xl font-bold">
-                Featured Projects
+                Projects Terbaru 🦄
               </h1>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
@@ -54,23 +54,25 @@ const Projects = () => {
           <section>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* card */}
-              {ProjectsData.map(({ id, name, image, link }) => {
-                return (
-                  <div>
-                    <div className="h-[340px] sm:h-[420px] w-full bg-dark/80 grid place-items-center p-3 sm:p-6">
-                      <img src={image} alt="" className="" />
-                    </div>
-                    <div className="pt-4 space-y-3">
-                      <h1 className="text-3xl font-bold">{name}</h1>
-                      <div>
-                        <a href={link} className="text-primary uppercase">
-                          Know More
-                        </a>
-                      </div>
+              {ProjectsData.map(({ id, name, image, link }) => (
+                <div key={id} className="overflow-hidden rounded-lg">
+                  <div className="h-[340px] sm:h-[420px] w-full bg-dark/80">
+                    <img
+                      src={image}
+                      alt={name}
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="pt-4 space-y-3">
+                    <h1 className="text-3xl font-bold">{name}</h1>
+                    <div>
+                      <a href={link} className="text-primary uppercase">
+                        Know More
+                      </a>
                     </div>
                   </div>
-                );
-              })}
+                </div>
+              ))}
             </div>
           </section>
         </div>

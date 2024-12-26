@@ -9,7 +9,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 bg-dark py-8 px-6">
             <div className="col-span-2 space-y-3">
               <h1 className="text-5xl font-bold text-white">
-              Mari bekerja sama dalam proyek Anda berikutnya
+              penasaran dengan mobil lainnya ? hubbungi saya untuk info lebih lanjut.
               </h1>
               <p className="text-gray-400">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
