@@ -1,34 +1,33 @@
+// src/components/Navbar/Navbar.js
 import React from "react";
-import DarkMode from "./Darkmode";
+import DarkMode from "./Darkmode"; // Pastikan komponen DarkMode sudah dibuat atau diimpor dengan benar
 
 export const Navlinks = [
   {
     id: 1,
     name: "HOME",
-    link: "/#Hero",
+    link: "/#Hero",  // Menggunakan anchor link untuk navigasi dalam halaman
   },
   {
     id: 2,
-    name: "PROJECTS",
-    link: "/#project",
+    name: "ABOUT CARS",
+    link: "/#Mobil",  //  link untuk section Mobil
   },
   {
-    id: 1,
+    id: 3,
     name: "ABOUT",
-    link: "/#about",
+    link: "/#about",  //  link untuk section About
   },
   {
-    id: 1,
+    id: 4,
     name: "CONTACT",
-    link: "/#contact",
+    link: "/#contact",  //  link untuk section Contact
   },
 ];
+
 const Navbar = () => {
   return (
-    <div
-      className="shadow-md w-full dark:bg-black dark:text-white
-    "
-    >
+    <div className="shadow-md w-full dark:bg-black dark:text-white">
       <div className="container py-2 sm:py-0">
         <div className="flex justify-between items-center">
           <div>

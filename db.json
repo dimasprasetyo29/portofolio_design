@@ -1,0 +1,64 @@
+{
+  "mobils": [
+    {
+      "id": 1,
+      "name": "BMW M4 COMPETITION",
+      "image": "http://localhost:3000/assets/image/bmw.jpg",
+      "description": "A powerful luxury car with exceptional performance."
+    },
+    {
+      "id": 2,
+      "name": "CHEVROLET CORVETTE",
+      "image": "http://localhost:3000/assets/image/corvette.jpg",
+      "description": "An iconic American sports car with impressive speed."
+    },
+    {
+      "id": 3,
+      "name": "FERRARI F8 SPIDER",
+      "image": "http://localhost:3000/assets/image/pagani.jpg",
+      "description": "A stunning Ferrari with an open-top design and turbocharged engine."
+    },
+    {
+      "id": 4,
+      "name": "KOENIGSEGG",
+      "image": "http://localhost:3000/assets/image/koenigseeg.jpg",
+      "description": "A hypercar built for ultimate speed and technology."
+    },
+    {
+      "id": "bfc9",
+      "name": "MOBIL GW",
+      "image": "blob:http://localhost:5173/0c27d24a-a535-4b7b-99ac-81f19dd19438",
+      "description": "besok saya beli mobil ini ♡( ◡‿◡ ) , hehe\n"
+    },
+    {
+      "id": "10ff",
+      "name": "MOBIL GW",
+      "image": "blob:http://localhost:5173/a629a386-3246-4c70-aa12-20b51e7dbf30",
+      "description": "besok saya punya mobil ini \n ♡( ◡‿◡ )"
+    },
+    {
+      "id": "9314",
+      "name": "mobil gw yg ke-2",
+      "image": "blob:http://localhost:5173/6c2ac2c1-45f0-4aaf-a41f-7caf53214e41",
+      "description": "besok saya juga punya mobil ini \n ♡( ◡‿◡ )"
+    },
+    {
+      "id": "c3bc",
+      "name": "mobil gw yg ke-3",
+      "image": "blob:http://localhost:5173/7d383c0a-c02e-4b7c-88d7-b879c5d9c58b",
+      "description": "besok saya punya banyak mobil sport ❤️"
+    },
+    {
+      "id": "6208",
+      "name": "KOENIGSEEG",
+      "image": "blob:http://localhost:5173/67e4fb1e-4f8c-4c8f-a335-5c067425e2fa",
+      "description": "mobil mewah dengan banyak fitur dari ferrari"
+    },
+    {
+      "id": "dcad",
+      "name": "bmw",
+      "image": "blob:http://localhost:5173/8402d383-c538-4374-a36f-81a8ecf909a6",
+      "description": "Mobil gw ❤️❤️"
+    }
+  ]
+}

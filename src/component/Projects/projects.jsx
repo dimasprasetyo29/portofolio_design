@@ -1,7 +1,7 @@
 import React from "react";
-import web1 from "../../assets/image/bmw.jpg";
+import web1 from "../../assets/image/koenigseeg.jpg";
 import web2 from "../../assets/image/corvette.jpg";
-import web3 from "../../assets/image/koenigseeg.jpg";
+import web3 from "../../assets/image/bmw.jpg";
 import web4 from "../../assets/image/pagani.jpg";
 
 const ProjectsData = [
